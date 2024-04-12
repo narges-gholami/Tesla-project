@@ -1,0 +1,61 @@
+.header,
+.section,
+.footer {
+  height: 100vh;
+}
+/*
+
+header start
+
+*/
+.header {
+}
+
+.header__top {
+  background-color: purple;
+  height: 7vh;
+}
+
+.header__bottom {
+  height: 93vh;
+  background-color: cadetblue;
+}
+
+/*
+
+header end
+
+*/
+/*
+
+main start
+
+*/
+.main {
+}
+
+.section {
+  background-color: red;
+  border-bottom: 5px solid white;
+}
+
+/*
+
+main end
+
+*/
+
+/*
+
+footer start
+
+*/
+.footer {
+  background-color: blueviolet;
+}
+
+/*
+
+footer end
+
+*/
