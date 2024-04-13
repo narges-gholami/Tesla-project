@@ -155,6 +155,35 @@ mega menu start
   overflow: hidden;
 }
 
+.mega-lists {
+  display: flex;
+}
+
+.mega-list {
+  font-size: ;
+}
+
+.mega-title {
+  padding: 1rem;
+  color: #5c5e62;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.mega-shop {
+  display: flex;
+}
+
+.shop_item {
+  text-align: center;
+}
+
+.reset {
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
 /*
 
 mega menu end
@@ -173,7 +202,6 @@ header start
 
 .header__top {
   color: #fff;
-  /* background-color: blue; */
   height: 7vh;
   display: flex;
   justify-content: space-between;
@@ -231,7 +259,6 @@ header start
 .header__bottom {
   height: 93vh;
   background-color: cadetblue;
-  background-image: url(../images/Mega-Menu/Mega-Menu-Vehicles-Cybertruck-1x.png);
 }
 
 /*

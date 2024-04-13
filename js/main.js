@@ -9,9 +9,13 @@ const header = document.querySelector(".header");
 const openVehiclesMenu = document.querySelector(".header-item1");
 const openEnergyMenu = document.querySelector(".header-item2");
 const openChargingMenu = document.querySelector(".header-item3");
+const openDiscoverMenu = document.querySelector(".header-item4");
+const openShopMenu = document.querySelector(".header-item5");
 const menuVehicles = document.getElementById("mega-menu__vehicles");
 const menuEnergy = document.getElementById("mega-menu__energy");
 const menuCharging = document.getElementById("mega-menu__charging");
+const menuDiscover = document.getElementById("mega-menu__discover");
+const menuShop = document.getElementById("mega-menu__shop");
 
 // Close
 const magaMenuBack = document.querySelector(".mega-menu__back");
@@ -74,6 +78,11 @@ openChargingMenu.addEventListener(
   "mouseover",
   openMenu(menuCharging, openChargingMenu)
 );
+openDiscoverMenu.addEventListener(
+  "mouseover",
+  openMenu(menuDiscover, openDiscoverMenu)
+);
+openShopMenu.addEventListener("mouseover", openMenu(menuShop, openShopMenu));
 
 // Close Mega Menu
 const closeMenu = function () {
