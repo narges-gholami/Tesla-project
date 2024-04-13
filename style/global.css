@@ -13,4 +13,7 @@
 
 body {
   font-family: Poppins;
+  position: relative;
+
+  color: #171a20;
 }
