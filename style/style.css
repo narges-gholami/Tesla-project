@@ -69,26 +69,277 @@ main start
 .main {
 }
 
-.section {
-  background-color: red;
-  border-bottom: 5px solid white;
+.section1 {
+  background-image: url(../images/homepage/Homepage-Model-Y.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.inner-section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 18rem;
+  align-items: center;
+  height: 100%;
+}
+.section1-top {
+  text-align: center;
+  padding-top: 11rem;
+}
+.section1-top-title {
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+  word-spacing: 1rem;
+  font-weight: 500;
+}
+.section1-top-price {
+  letter-spacing: 0.4rem;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+.section1-top-credit {
+  font-size: 1.5rem;
+  font-weight: 300;
+  word-spacing: 0.8rem;
+  color: #1b1f23;
+}
+.section1-links a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.section1-links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+  bottom: -14rem;
+}
+/* .link1 a {
+  background-color: #f4f4f4cc;
+  padding: 1rem 6rem;
+  border-radius: 0.3rem;
+  color: black;
+  font-weight: 500;
+}
+.link2 a {
+  background-color: #62615f;
+  padding: 1rem 6rem;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-weight: 500;
+} */
+.section1-desc {
+  font-size: 1.2rem;
 }
 
-/*
+.section2 {
+  background-image: url(../images/homepage/Homepage-Model-3.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section1-title {
+  font-size: 3rem;
+}
+.section1-desc a {
+  color: #1b1f23;
+}
+.x-color {
+  color: #ffffff !important;
+}
+.x-color a {
+  color: #ffffff;
+}
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 {
+  background-image: url(../images/homepage/Homepage-Model-X.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-main end
+.section4 {
+  background-image: url(../images/homepage/Homepage-Model-S.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-*/
+.section5 {
+  background-image: url(../images/homepage/Homepage-Cybertruck.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.links a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1.6rem;
+  /* color: #ffffff;  */
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 0 auto;
+  position: relative;
+  top: 55rem;
+}
+.links-1 a {
+  background-color: #f4f4f4cc;
+  padding: 1rem 6rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+}
+.links-2 a {
+  background-color: #62615f;
+  padding: 1rem 6rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+}
+.section6 {
+  background-image: url(../images/homepage/Homepage-SolarPanels.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.white {
+  color: #ffffff;
+}
+.white-link {
+  color: #ffffff;
+  /* word-spacing: 1rem; */
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+.blure {
+  backdrop-filter: blur(2rem);
+}
+.section7 {
+  background-image: url(../images/homepage/Homepage-SolarRoof.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section7-desc {
+  font-size: 1.8rem;
+}
 
+.section8 {
+  background-image: url(../images/homepage/Homepage-Powerwall.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.inner-section8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12rem;
+  height: 100%;
+}
+.section8-links a {
+  display: flex;
+  margin-top: -20rem;
+}
+.section8-links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.section8-title {
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+  font-weight: 500;
+}
+.section8-links a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.section-right-link1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28rem;
+  padding: 1rem 6.8rem;
+  background-color: #ffffff !important;
+  border-radius: 0.3rem;
+  color: #1b1f23;
+  font-weight: 500;
+}
+.section-right-link2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28rem;
+  padding: 1rem 6.8rem;
+  background-color: #3332318d !important;
+  backdrop-filter: blur(1rem);
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-weight: 500;
+}
 /*
 
 footer start
 
 */
 .footer {
-  background-color: blueviolet;
+  background-image: url(../images/homepage/Homepage-Accessories.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
+.inner-footer {
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.footer_menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  list-style: none;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+.footer_menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+.inner-footer-title {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.inner-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28rem;
+  padding: 1rem 6.8rem;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  color: #1b1f23;
+}
+.inner-footer-link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin-top: 20rem;
+  font-weight: 500;
+}
 /*
 
 footer end
